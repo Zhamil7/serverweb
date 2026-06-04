@@ -1,5 +1,5 @@
 <?php
-$url = 'https://httpbin.org/get';   // адрес для проверки
+$url = 'http://httpbin.org/get';   // адрес для проверки
 
 $headers = get_headers($url);
 
