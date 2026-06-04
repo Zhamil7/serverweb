@@ -35,7 +35,7 @@ if ($headers === false) {
     </main>
 
     <footer class="footer">
-        задание для самостоятельной работы
+        Исматов Жамиль Максатович 251-3210
     </footer>
 </body>
 </html>
