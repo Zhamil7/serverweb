@@ -407,7 +407,7 @@ $displayValue = $resultFromGet !== '' ? $resultFromGet : $expressionFromGet;
                     <button type="button" data-value="7">7</button>
                     <button type="button" data-value="8">8</button>
                     <button type="button" data-value="9">9</button>
-                    <button type="button" data-value="*">*</button>
+                    <button type="button" data-value="*">x</button>
 
                     <button type="button" data-value="4">4</button>
                     <button type="button" data-value="5">5</button>
