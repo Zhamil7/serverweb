@@ -94,7 +94,7 @@ if ($action === 'delete') {
     </main>
 
     <footer class="footer">
-        задание для самостоятельно работы
+        Исматов Жамиль Максатович 251-3210
     </footer>
 </body>
 </html>
