@@ -6,9 +6,8 @@ if (basename($_SERVER['SCRIPT_NAME']) !== 'index.php') {
 
 function getInitials(string $name, string $lastname): string
 {
-    $firstInitial = $name !== '' ? mb_substr($name, 0, 1) . '.' : '';
-    $secondInitial = $lastname !== '' ? mb_substr($lastname, 0, 1) . '.' : '';
-
+    $firstInitial = $name !== '' ? substr($name, 0, 1) . '.' : '';
+    $secondInitial = $lastname !== '' ? substr($lastname, 0, 1) . '.' : '';
     return trim($firstInitial . ' ' . $secondInitial);
 }
 
